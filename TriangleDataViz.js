@@ -12,7 +12,7 @@ let table;
 function preload() {
     //table is comma separated value "csv"
     //and has no header specifying the columns labels
-    table = loadTable('assets/fullData.csv', 'csv', 'noHeader');
+    table = loadTable('fullData.csv', 'csv', 'noHeader');
 }
 
 // function setup() {
